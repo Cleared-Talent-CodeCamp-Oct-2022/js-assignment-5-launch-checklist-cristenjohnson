@@ -32,7 +32,7 @@ window.addEventListener("load", function () {
    <li>Diameter: ${json[i].diameter}</li>
    <li>Star: ${json[i].star}</li>
    <li>Distance from Earth: ${json[i].distance}</li>
-   <li>Number of Moons: ${json[i].numberOfMoons}</li>
+   <li>Number of Moons: ${json[i].moons}</li>
 </ul>
 <img src="${json[i].image}">
 `
